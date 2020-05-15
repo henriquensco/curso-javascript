@@ -16,6 +16,47 @@
 5 !== '5' -> true //desigual restrito *tipos diferentes*
 
 #OPERADORES LÓGICOS
+! negação
+&& conjunção
+|| disjunção
+
+##NEGACAO
+
+! true -> false
+! false -> true
+
+##CONJUÇÃO
+
+*Operador binário*
+
+true  && true 
+true     false
+false    true
+false    false
+
+##DISJUNÇÃO
+
+true   ||  true  -> true
+true       false -> true
+false      true  -> true
+false      false -> false
+
+
+#ORDEM DE PRECEDÊNCIA
+
+() ** / ···
+
+> < >= ···
+
 !
 &&
 ||
+
+#OPERADOR TERNÁRIO
+
+? e :
+
+teste ? true : false
+
+média >= 7.0 ? 'aprovado' : 'reprovado'
+
