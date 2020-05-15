@@ -14,3 +14,8 @@
 5 === '5' -> false  verifica se os valores são identicos
 5 === 5 -> true
 5 !== '5' -> true //desigual restrito *tipos diferentes*
+
+#OPERADORES LÓGICOS
+!
+&&
+||
