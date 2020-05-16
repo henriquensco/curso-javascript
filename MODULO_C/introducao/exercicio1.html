@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Primeiros passos com DOM</title>
+
+	<style type="text/css">
+		body {
+			background-color: rgb(68, 125, 199);
+			color: #fff;
+			font: normal 18pt Arial;
+		}
+	</style>
+
+</head>
+<body>
+
+	<h1>Inciando estudos com DOM</h1>
+
+	<p>Aqui vai o resultado</p>
+
+	<p>Aprendendo aprender usar o <strong>DOM</strong> em JavaScript.</p>
+
+	<div id="msg">Clique em mim</div>
+
+	<div name="msg">Clique em mim</div>
+
+	<div class="msgs">Clique em me</div>
+
+	<script type="text/javascript">
+		/* window.document.write("Olá, Mundo!")
+		// window.document.write(window.document.charset)
+		// window.document.write(window.navigator.appName)
+		// window.document.write(window.document.URL) */
+
+		// DENTRO DO DOM PODEMOS NAVEGAR POR ELEMENTOS
+
+		/*por Marca -> getElementsByTagName()
+		//por ID -> getElementById()
+		//por Nome -> getElementsByName()
+		//por Classe -> getElementsByClassName()
+		//por Seletor 
+		     ->querySelector()
+		     ->querySelectorAll()
+		*/
+
+
+		// Selecionar por Marca
+		var corpo = window.document.body
+
+		var p1 = window.document.getElementsByTagName('p')[1]
+
+		window.document.write('Está escrito assim: ' + p1.innerText)
+
+		/* window.document.write('Está escrito assim: ' + p1.innerHTML)
+
+		//corpo.style.background = 'black'
+
+		//p1.style.color = 'blue' */
+
+
+		// Selecionar por ID
+		var d = window.document.getElementById('msg')
+
+		d.style.background = 'green'
+		//d.innerText = 'Estou aguardando'
+		window.document.getElementById('msg').innerText = 'Olá'
+
+
+		// Selecionar por Nome
+		var n = window.document.getElementsByClassName('msg')[0]
+
+		//n.innerText = 'novo'
+
+
+		// Selecionar por Seletor
+		var qs = window.document.querySelector('div.msgs')
+
+		qs.style.background = 'blue'
+	</script>
+
+</body>
+</html>

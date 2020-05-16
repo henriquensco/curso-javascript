@@ -1,0 +1,4 @@
+# `${ENTENDENDO DOM}`
+
+### WATCH IN CHROME -> Extensão VSCODE
+### NODE EXEC -> Extensão VSCODE 
