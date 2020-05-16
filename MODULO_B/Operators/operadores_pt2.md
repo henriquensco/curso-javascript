@@ -1,4 +1,4 @@
-#OPERADORES RELACIONAIS
+# OPERADORES RELACIONAIS
 
 - 5 > 2 -> TRUE
 - 7 < 4 -> FALSE
@@ -7,7 +7,7 @@
 - 5 == 5 -> TRUE
 - 4 != 4 -> FALSE
 
-##IDENTIDADE
+## IDENTIDADE
 
 5 == 5 -> true
 5 == '5' -> true
@@ -15,17 +15,17 @@
 5 === 5 -> true
 5 !== '5' -> true //desigual restrito *tipos diferentes*
 
-#OPERADORES LÓGICOS
+# OPERADORES LÓGICOS
 ! negação
 && conjunção
 || disjunção
 
-##NEGACAO
+## NEGACAO
 
 ! true -> false
 ! false -> true
 
-##CONJUÇÃO
+## CONJUÇÃO
 
 *Operador binário*
 
@@ -34,7 +34,7 @@ true     false
 false    true
 false    false
 
-##DISJUNÇÃO
+## DISJUNÇÃO
 
 true   ||  true  -> true
 true       false -> true
@@ -42,17 +42,17 @@ false      true  -> true
 false      false -> false
 
 
-#ORDEM DE PRECEDÊNCIA
+# ORDEM DE PRECEDÊNCIA
 
 () ** / ···
 
-> < >= ···
+<span> > < > = ··· </span>
 
 !
 &&
 ||
 
-#OPERADOR TERNÁRIO
+# OPERADOR TERNÁRIO
 
 ? e :
 
