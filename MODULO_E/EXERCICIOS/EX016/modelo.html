@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Modelo</title>
+	<title>Vamos contar!</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
 
 	<header>
-		<h1>Título</h1>
+		<h1>Vamos contar</h1>
 	</header>
 
 	<section>
 
-		<div>
-			TESTANDO
+		<div id="dados">
+			<p>Início: <input type="number" name="inicio" id="txti"/></p>
+			<p>Fim: <input type="number" name="fim" id="txtf"/></p>
+			<p>Passo: <input type="number" name="passo" id="txtp"/></p>
+			<p><input type="button" value="Contar" onclick="contar()"/></p>
 		</div>
 
 		<div>
-			OLÁ
+			<div id="res">
+				<span>Preparando contagem</span>
+			</div>
 		</div>
 
 	</section>
